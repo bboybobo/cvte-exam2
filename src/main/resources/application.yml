@@ -1,0 +1,15 @@
+server:
+    port: 8080
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/xubb_test2
+    username: root
+    password: bobo1356
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  thymeleaf:
+    mode: LEGACYHTML5
+
